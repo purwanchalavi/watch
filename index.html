@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>eCommerce</title>
+  </head>
+  <body class="bg-[#F1F1F1]">
+    <div class="max-w-[1200px] m-auto p-3.5">
+      <div class="flex justify-between gap-6">
+        <div class="left w-[10%]">
+         <img src="./images/Blue Shop.png" alt="" class="pt-4">
+        </div>
+        <div
+          class="middle flex w-[70%] justify-between bg-[#518FD8] border rounded-sm"
+        >
+          <input
+            class="w-[95%] focus:outline-none px-4"
+            type="text"
+            placeholder="Search"
+          />
+          <img
+            src="./images/a1.svg"
+            alt="search"
+            class="mx-auto p-1 cursor-pointer"
+          />
+        </div>
+        <div class="right flex w-[20%] justify-between h-[50%]">
+          <img
+            src="./images/a4.svg"
+            alt=""
+            class="bg-[#518FD8] p-2 border rounded-md cursor-pointer"
+          />
+          <img
+            src="./images/a3.png"
+            alt=""
+            class="bg-[#518FD8] p-2 border rounded-md cursor-pointer"
+          />
+          <img
+            src="./images/a2.png"
+            alt=""
+            class="bg-[#518FD8] p-2 border rounded-md cursor-pointer"
+          />
+        </div>
+      </div>
+      <div class="flex justify-between gap-2 py-8 ">
+        <div id="left" class="w-[15%]  bg-[#E9E9E9] p-2 font-[Roboto] font-medium leading-3 text-[#4F4F4F]">
+          <h3 class="font-medium text-xl py-4 leading-3">Brands</h3>
+          <div class="flex flex-col w-full gap-3">
+            <div class="flex">
+          <input type="checkbox" class="accent-[#E9E9E9]" />
+          <span class="px-2">Invicta</span>
+        </div>
+        <div class="flex">
+          <input type="checkbox" class="accent-[#E9E9E9]"/>
+          <span class="px-2">Fossil</span>
+        </div>
+        <div class="flex">
+          <input type="checkbox" class="accent-[#E9E9E9]" />
+          <span class="px-2">Bulova</span>
+        </div>
+        <div class="flex">
+          <input type="checkbox" class="accent-[#E9E9E9]"/>
+          <span class="px-2">Micbale</span>
+        </div>
+        <div class="flex">
+          <input type="checkbox" class="accent-[#E9E9E9]" />
+          <span class="px-2">Casio</span>
+        </div>
+        <div class="flex">
+          <input type="checkbox" class="accent-[#E9E9E9]" />
+          <span class="px-2">Royolex</span>
+        </div>
+        <div class="flex bg-[#E9E9E9] py-3 font-[Roboto]">
+          <img src="./images/icon.jpg" alt="">
+          <p class="text-blue-600 px-2">See More</p>
+        </div>
+        <p class="font-medium text-xl leading-3 text-[#4F4F4F]">Price</p>
+        <div class="flex flex-row max-w-full justify-between h-full py-5 ">
+          <div class="w-fit h-fit p-1 border border-black text-sm rounded-md text-[#4F4F4F66] cursor-pointer">$Min</div>
+          <div class="w-fit h-fit p-1 border border-black text-sm rounded-md text-[#4F4F4F66] cursor-pointer">$Max</div>
+          <div class="w-fit h-fit p-1 border border-black text-sm rounded-md text-black bg-white cursor-pointer">Go</div>
+        </div>
+        <div>
+          <p class="pb-4 text-center pt-3">Watch Band Color</p>
+          <div class="c w-full flex flex-col gap-4">
+          <div class="w-full h-4 flex flex-row justify-center gap-1 p-2">
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-black"></div>
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-red-600"></div>
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-white"></div>
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-fuchsia-700"></div>
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-teal-600"></div>
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-red-600"></div>
+          </div>
+          <div class="w-full h-4 flex flex-row justify-center gap-1 p-2">
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-pink-400"></div>
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-orange-500"></div>
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-yellow-400"></div>
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-green-600"></div>
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-blue-500"></div>
+            <div class="w-[20px] h-[20px] border border-black rounded-md bg-purple-600"></div>
+          </div>
+        </div> 
+        </div>
+        <div class="w-full py-5">
+          <p class="font-[Roboto] text-xl py-3">Watch Style</p>
+          <div class="flex flex-col gap-3">
+            <div class="flex">
+              <input type="checkbox" class="accent-[#E9E9E9]" />
+              <span class="px-2">Casual</span>
+            </div>
+            <div class="flex">
+              <input type="checkbox" class="accent-[#E9E9E9]" />
+              <span class="px-2">Dress</span>
+            </div>
+            <div class="flex">
+              <input type="checkbox" class="accent-[#E9E9E9]" />
+              <span class="px-2">Fashion</span>
+            </div>
+            <div class="flex">
+              <input type="checkbox" class="accent-[#E9E9E9]" />
+              <span class="px-2">Luxury</span>
+            </div>
+            <div class="flex">
+              <input type="checkbox" class="accent-[#E9E9E9]" />
+              <span class="px-2">Sport</span>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+
+        <div id="right" class="w-[90%]">
+          <div class="wrapper pb-8">
+            <div class="w-full relative">
+              <img
+                src="./images/Rectangle 12.png"
+                alt=""
+                class="border rounded-md"
+              />
+              <div
+                class="w-[98%] ml-[10px] h-[80%] border-2 border-white p-2 absolute -mt-40 rounded-md text-white text-2xl uppercase"
+              >
+                Avinash's Best
+              </div>
+            </div>
+          </div>
+          <div class="rapper">
+            <div class="flex w-[98%] mx-auto pb-2">
+              <p class="w-[10%]">Best selling</p>
+              <div
+                class="w-[90%] border border-b-2 border-black border-t-0 border-l-0 border-r-0 -translate-y-2"
+              ></div>
+            </div>
+            <div
+              class="grid grid-flow-row grid-cols-4 w-full gap-2 p-2 bg-[#F1F1F1]"
+            >
+              <div class="shadow-lg rounded-lg shadow-cyan-100 bg-[#FCFCFC]">
+                <img
+                  src="./images/watch4.jpg"
+                  alt=""
+                  class="w-full p-[0.2rem] h-[77%]"
+                />
+                <div class="wrap flex justify-between w-full p-1">
+                  <div class="flex flex-col w-2/5 gap-2 p-1">
+                    <h3 class="text-sm text-black">MONTBLANC</h3>
+                    <p class="text-sm text-gray-900">$10.600</p>
+                  </div>
+                  <div class="rap w-3/5 h-full">
+                    <div class="flex justify-end">
+                      <div class="items flex gap-1">
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                      </div>
+                      <span class="text-center mx-2 text-black">4.5</span>
+                    </div>
+                    <div class="rapall w-full mx-auto">
+                      <div
+                        class="w-[90%] shadow-lg items-center border rounded-md flex bg-white mx-auto"
+                      >
+                        <div
+                          class="w-4 h-5 ml-1 border border-black bg-white shadow-lg shadow-slate-200 flex items-center rounded-sm"
+                        >
+                          <span class="text-center font-medium">+</span>
+                        </div>
+                        <a href="#" class="p-1 m-auto">Add to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="shadow-lg rounded-lg shadow-cyan-100 bg-[#FCFCFC]">
+                <img
+                  src="./images/Rectangle 19 (2).png"
+                  alt=""
+                  class="w-full p-[0.2rem]"
+                />
+                <div class="wrap flex justify-between w-full p-1">
+                  <div class="flex flex-col w-2/5 gap-2 p-1">
+                    <h3 class="text-sm text-black">MONTBLANC</h3>
+                    <p class="text-sm text-gray-900">$10.600</p>
+                  </div>
+                  <div class="rap w-3/5 h-full">
+                    <div class="flex justify-end">
+                      <div class="items flex gap-1">
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                      </div>
+                      <span class="text-center mx-2 text-black">4.5</span>
+                    </div>
+                    <div class="rapall w-full mx-auto">
+                      <div
+                        class="w-[90%] shadow-lg items-center border rounded-md flex bg-white mx-auto"
+                      >
+                        <div
+                          class="w-4 h-5 ml-1 border border-black bg-white shadow-lg shadow-slate-200 flex items-center rounded-sm"
+                        >
+                          <span class="text-center font-medium">+</span>
+                        </div>
+                        <a href="#" class="p-1 m-auto">Add to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="shadow-lg rounded-lg shadow-cyan-100 bg-[#FCFCFC]">
+                <img
+                  src="./images/Rectangle 19 (3).png"
+                  alt=""
+                  class="w-full p-[0.2rem]"
+                />
+                <div class="wrap flex justify-between w-full p-1">
+                  <div class="flex flex-col w-2/5 gap-2 p-1">
+                    <h3 class="text-sm text-black">MONTBLANC</h3>
+                    <p class="text-sm text-gray-900">$10.600</p>
+                  </div>
+                  <div class="rap w-3/5 h-full">
+                    <div class="flex justify-end">
+                      <div class="items flex gap-1">
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                      </div>
+                      <span class="text-center mx-2 text-black">4.5</span>
+                    </div>
+                    <div class="rapall w-full mx-auto">
+                      <div
+                        class="w-[90%] shadow-lg items-center border rounded-md flex bg-white mx-auto"
+                      >
+                        <div
+                          class="w-4 h-5 ml-1 border border-black bg-white shadow-lg shadow-slate-200 flex items-center rounded-sm"
+                        >
+                          <span class="text-center font-medium">+</span>
+                        </div>
+                        <a href="#" class="p-1 m-auto">Add to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="shadow-lg rounded-lg shadow-cyan-100 bg-[#FCFCFC]">
+                <img
+                  src="./images/watch5.jpg"
+                  alt=""
+                  class="w-full p-[0.2rem] h-[77%]"
+                />
+                <div class="wrap flex justify-between w-full p-1">
+                  <div class="flex flex-col w-2/5 gap-2 p-1">
+                    <h3 class="text-sm text-black">MONTBLANC</h3>
+                    <p class="text-sm text-gray-900">$10.600</p>
+                  </div>
+                  <div class="rap w-3/5 h-full">
+                    <div class="flex justify-end">
+                      <div class="items flex gap-1">
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                        <img src="./images/Star 1.png" alt="" />
+                      </div>
+                      <span class="text-center mx-2 text-black">4.5</span>
+                    </div>
+                    <div class="rapall w-full mx-auto">
+                      <div
+                        class="w-[90%] shadow-lg items-center border rounded-md flex bg-white mx-auto"
+                      >
+                        <div
+                          class="w-4 h-5 ml-1 border border-black bg-white shadow-lg shadow-slate-200 flex items-center rounded-sm"
+                        >
+                          <span class="text-center font-medium">+</span>
+                        </div>
+                        <a href="#" class="p-1 m-auto">Add to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="buttom w-full flex pt-6">
+            <div class="rapitem w-[75%] h-full p-1">
+              <div class="flex w-[98%] mx-auto pb-2">
+                <p class="w-[20%]">Best selling</p>
+                <div
+                  class="w-[80%] border border-b-2 border-black border-t-0 border-l-0 border-r-0 -translate-y-2"
+                ></div>
+              </div>
+              <div class="textline"></div>
+              <div
+                class="timage grid grid-flow-row grid-cols-3 w-full h-[50%] gap-1"
+              >
+                <div class="shadow-lg rounded-lg shadow-cyan-100 bg-[#FCFCFC]">
+                  <img
+                    src="./images/f1.png"
+                    alt=""
+                    class="w-full p-[0.2rem] h-[77%] pb-2"
+                  />
+                  <div class="wrap flex justify-between w-full p-1">
+                    <div class="flex flex-col w-2/5 gap-2 p-1">
+                      <h3 class="text-sm text-black">MONTBLANC</h3>
+                      <p class="text-sm text-gray-900">$10.600</p>
+                    </div>
+                    <div class="rap w-3/5 h-full">
+                      <div class="flex justify-end">
+                        <div class="items flex gap-1">
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                        </div>
+                        <span class="text-center mx-2 text-black">4.5</span>
+                      </div>
+                      <div class="rapall w-full mx-auto">
+                        <div
+                          class="w-[90%] shadow-lg items-center border rounded-md flex bg-white mx-auto"
+                        >
+                          <div
+                            class="w-4 h-5 ml-1 border border-black bg-white shadow-lg shadow-slate-200 flex items-center rounded-sm"
+                          >
+                            <span class="text-center font-medium">+</span>
+                          </div>
+                          <a href="#" class="p-1 m-auto">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="shadow-lg rounded-lg shadow-cyan-100 bg-[#FCFCFC]">
+                  <img
+                    src="./images/f2.png"
+                    alt=""
+                    class="w-full p-[0.2rem] h-[77%] pb-2"
+                  />
+                  <div class="wrap flex justify-between w-full p-1">
+                    <div class="flex flex-col w-2/5 gap-2 p-1">
+                      <h3 class="text-sm text-black">MONTBLANC</h3>
+                      <p class="text-sm text-gray-900">$10.600</p>
+                    </div>
+                    <div class="rap w-3/5 h-full">
+                      <div class="flex justify-end">
+                        <div class="items flex gap-1">
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                        </div>
+                        <span class="text-center mx-2 text-black">4.5</span>
+                      </div>
+                      <div class="rapall w-full mx-auto">
+                        <div
+                          class="w-[90%] shadow-lg items-center border rounded-md flex bg-white mx-auto"
+                        >
+                          <div
+                            class="w-4 h-5 ml-1 border border-black bg-white shadow-lg shadow-slate-200 flex items-center rounded-sm"
+                          >
+                            <span class="text-center font-medium">+</span>
+                          </div>
+                          <a href="#" class="p-1 m-auto">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="shadow-lg rounded-lg shadow-cyan-100 bg-[#FCFCFC]">
+                  <img
+                    src="./images/f3.png"
+                    alt=""
+                    class="w-full p-[0.2rem] h-[77%] pb-2"
+                  />
+                  <div class="wrap flex justify-between w-full p-1">
+                    <div class="flex flex-col w-2/5 gap-2 p-1">
+                      <h3 class="text-sm text-black">MONTBLANC</h3>
+                      <p class="text-sm text-gray-900">$10.600</p>
+                    </div>
+                    <div class="rap w-3/5 h-full">
+                      <div class="flex justify-end">
+                        <div class="items flex gap-1">
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                          <img src="./images/Star 1.png" alt="" />
+                        </div>
+                        <span class="text-center mx-2 text-black">4.5</span>
+                      </div>
+                      <div class="rapall w-full mx-auto">
+                        <div
+                          class="w-[90%] shadow-lg items-center border rounded-md flex bg-white mx-auto"
+                        >
+                          <div
+                            class="w-4 h-5 ml-1 border border-black bg-white shadow-lg shadow-slate-200 flex items-center rounded-sm"
+                          >
+                            <span class="text-center font-medium">+</span>
+                          </div>
+                          <a href="#" class="p-1 m-auto">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="leftimage w-[30%] rounded-lg p-1">
+              <div class="w-full relative h-full">
+                <img
+                  src="./images/hand.jpg"
+                  alt=""
+                  class="rounded-tl-lg rounded-tr-lg border h-full w-full"
+                />
+                <div
+                  class="w-[80%] ml-[30px] h-[80%] border border-white p-2 absolute -mt-80 rounded-sm text-white text-md uppercase text-center items-center"
+                >
+                  Avinash's Best
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
